@@ -112,6 +112,7 @@ hr {
 
 hr:not([size]) {
   height: 1px;
+  color:#9CA1B6;
 }
 
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
@@ -1998,7 +1999,7 @@ progress {
   vertical-align: bottom;
 }
 .table > :not(:first-child) {
-  border-top: 2px solid currentColor;
+  border-top: 0px solid currentColor;
 }
 
 .caption-top {
@@ -3559,6 +3560,7 @@ textarea.form-control-lg {
   border-right: 0.3em solid transparent;
   border-bottom: 0;
   border-left: 0.3em solid transparent;
+  color:#878DA9;
 }
 .dropdown-toggle:empty::after {
   margin-left: 0;
@@ -4251,6 +4253,8 @@ textarea.form-control-lg {
   }
   .navbar-expand-lg .navbar-nav .dropdown-menu {
     position: absolute;
+    border:none;
+    box-shadow: 2px 2px 4px #9CA1B6;
   }
   .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 0.5rem;
@@ -4913,6 +4917,14 @@ textarea.form-control-lg {
 .badge:empty {
   display: none;
 }
+.badge-danger {
+  color: #fff;
+  background-color: #dc3545;
+}
+.badge-info {
+  color: #fff;
+  background-color: #17a2b8;
+}
 
 .btn .badge {
   position: relative;
@@ -5378,7 +5390,7 @@ textarea.form-control-lg {
 }
 
 .list-group-item-light {
-  color: #636464;
+  color: #687088;
   background-color: #fefefe;
 }
 .list-group-item-light.list-group-item-action:hover, .list-group-item-light.list-group-item-action:focus {
@@ -11374,7 +11386,7 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
 }
 #circleBar span {
   display: block;
-  color: #999;
+  color: #2D3748;
   font-size: 16px;
   margin-top: 10px;
 }
@@ -11388,4 +11400,61 @@ section button:hover {
 }
 .btn:hover{
   color:white;
+}
+/**/
+.Sidbar_Icon{
+  width: 20px;
+}
+/**/
+.Profile_Name{
+  display: block;
+  margin: -9px 47px 0px 0px;
+  font-size: 13px;
+  color:#718096;
+}
+.Profile_Subtitle{
+  color: #2D3748;
+  font-size: 18px;
+}
+.Profile_Content{
+color: #A0AEC0;
+font-size: 14px;
+}
+.Employee_Number{
+  color: #2D3748;
+  font-size: 24px;
+  font-weight: bold;
+}
+.Employee_Code_Text{
+  color: #A0AEC0;
+  font-size: 14px;
+  font-weight: medium;
+}
+.Color_Holiday{
+  color:#D11349;
+  font-size:24px;
+}
+.Color_Mamoreya{
+  color:#F99B1C;
+  font-size:24px;
+}
+.Color_Edafy{
+  color:#0054A6;
+  font-size:24px;
+}
+.Color_EnsrafTa25er{
+  color:#8D54A2;
+  font-size:24px;
+}
+.Color_HedorEnsraf{
+  color:#008069;
+  font-size:24px;
+}
+.Not_Available_Btn{
+  display: block;
+  margin-right: auto;
+}
+.Card_Footer{
+  padding: 33px 10px;
+  background-color: #F7FAFC;
 }
