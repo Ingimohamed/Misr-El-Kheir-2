@@ -13,6 +13,7 @@
         <link rel="icon" type="image/x-icon" href="assets/favicon-misrelkheer.png" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/circular-progress.css" rel="stylesheet" />
     </head>
     <body >
         <div class="d-flex" id="wrapper">
@@ -85,57 +86,82 @@
                     </div>
                   </div>
                     <section id="circleBar">
-                      <div class="container">
+                      <div class="container-fluid">
                           <div class="row">
                             <div class="col-md-2">
-                              <div class="card Card_Circle_Prog">
-                                <div class="round" data-value="0.27" data-size="100" data-thickness="6">
-                                  <strong></strong>
-                                  <span> رصيد الاعتيادى</span>
+                              <div class="card Card_Circle_Prog h-188">
+                                <div class="c100 p90 green">
+                                  <span>90%</span>
+                                  <div class="slice">
+                                    <div class="bar"></div>
+                                    <div class="fill"></div>
+                                  </div>
                               </div>
+                              <p class="text-center">رصيد الاعتيادى</p>
+                              </div>
+                              </div>
+                            <div class="col-md-2">
+                              <div class="card Card_Circle_Prog h-188">
+                                <div class="c100 p75 blue">
+                                  <span>75%</span>
+                                  <div class="slice">
+                                    <div class="bar"></div>
+                                    <div class="fill"></div>
+                                  </div>
+                              </div>
+                              <p class="text-center">مستهلك الاعتيادية</p>
                               </div>
                             </div>
                             <div class="col-md-2">
-                              <div class="card Card_Circle_Prog">
-                                <div class="round" data-value="0.1" data-size="100" data-thickness="6">
-                                  <strong></strong>
-                                  <span> مستهلك الاعتيادية</span>
-                              </div>
-                              </div>
+                              <div class="card Card_Circle_Prog h-188">
+                              <div class="c100 p70 violet">
+                                <span>70%</span>
+                                <div class="slice">
+                                  <div class="bar"></div>
+                                  <div class="fill"></div>
+                                </div>
                             </div>
-                            <div class="col-md-2">
-                              <div class="card Card_Circle_Prog">
-                                <div class="round" data-value="0.1" data-size="100" data-thickness="6">
-                                  <strong></strong>
-                                  <span> مستهلك العارضة</span>
-                              </div>
-                              </div>
+                            <p class="text-center">مستهلك العارضة</p>
+                          </div>
                             </div>
                               <div class="col-md-2">
-                                <div class="card Card_Circle_Prog">
-                                  <div class="round" data-value="0.27" data-size="100" data-thickness="6">
-                                    <strong></strong>
-                                    <span> المتبقى من الاجازات الرسمية</span>
+                                <div class="card Card_Circle_Prog h-188">
+                                  <div class="c100 p85 darkblue">
+                                    <span>85%</span>
+                                    <div class="slice">
+                                      <div class="bar"></div>
+                                      <div class="fill"></div>
+                                    </div>
                                 </div>
-                                </div>
-                              </div>
-                              <div class="col-md-2">
-                                <div class="card Card_Circle_Prog">
-                                  <div class="round" data-value="0.1" data-size="100" data-thickness="6">
-                                    <strong></strong>
-                                    <span> المرضى المستهلك</span>
-                                </div>
+                                <p class="text-center">المتبقى من الاجازات الرسمية</p>
                                 </div>
                               </div>
                               <div class="col-md-2">
-                                <div class="card Card_Circle_Prog">
-                                  <div class="round" data-value="0.50" data-size="100" data-thickness="6">
-                                    <strong></strong>
-                                    <span> المرضى المتبقى</span>
+                                <div class="card Card_Circle_Prog h-188">
+                                  <div class="c100 p70 orange">
+                                    <span>70%</span>
+                                    <div class="slice">
+                                      <div class="bar"></div>
+                                      <div class="fill"></div>
+                                    </div>
                                 </div>
+                                <p class="text-center">المرضى المستهلك</p>
+                                </div>
+                              </div>
+                              <div class="col-md-2">
+                                <div class="card Card_Circle_Prog h-188">
+                                  <div class="c100 p70 red">
+                                    <span>70%</span>
+                                    <div class="slice">
+                                      <div class="bar"></div>
+                                      <div class="fill"></div>
+                                    </div>
+                                </div>
+                                <p class="text-center">المرضى المتبقى</p>
                                 </div>
                               </div>
                           </div>
+                        </div>
                       </div>
                   </section>
                   <!-- Second section -->

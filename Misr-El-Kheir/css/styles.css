@@ -11364,37 +11364,6 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
   border-radius: 10px;
 }
 /* progress circle */
-#circleBar {
-  margin-top: 10px;
-  text-align: center;  
-}
-#circleBar .round {
-  min-height: 168px;
-  margin-top: 30px;
-  position: relative;
-  margin-bottom: 20px;
-}
-#circleBar .round strong {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-top: -54px;
-  transform: translate(-50%);
-  font-size: 34px;
-  color: #3f3a3a;
-  font-weight: 100;
-}
-#circleBar span {
-  display: block;
-  color: #2D3748;
-  font-size: 16px;
-  margin-top: 10px;
-}
-#circleBar span i {
-  color: #092352;
-  font-size: 22px;
-  margin-right: 6px;
-}
 section button:hover {
   background-color: #092352;
 }
@@ -11457,4 +11426,7 @@ font-size: 14px;
 .Card_Footer{
   padding: 33px 10px;
   background-color: #F7FAFC;
+}
+.h-188{
+  height: 188px!important;
 }
